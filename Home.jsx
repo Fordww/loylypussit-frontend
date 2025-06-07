@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   const handleBuy = async () => {
-    const res = await fetch("https://YOUR_BACKEND_URL/create-checkout-session", {
+    const res = await fetch("https://loylypussit-backend.onrender.com/create-checkout-session", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
